@@ -20,4 +20,4 @@ const bodyParser = () => async (ctx, next) => {
     await next()
 }
 
-export default bodyParser
+module.exports = bodyParser
